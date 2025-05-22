@@ -1,0 +1,60 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:#e0f0ff;
+    color:#000000;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .formatheader {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .roundedimage {
+        border-radius: 12px;
+    }
+
+.button {
+    background-color: #45a049; 
+    border: none;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Membuat sudut tombol melengkung */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: black; /* Warna saat hover */
+    color: yellow
+
+.disabled{
+    opacity: 0.6;
+    cursor:not-allowed;
+}
+}
+.btn-group .button {
+    background-color: #04AA6D; /* Green */
+    border: 2px solid orange;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .btn-group .button:hover {
+    background-color: #3e8e41;
+  }
