@@ -21,7 +21,6 @@
       <link rel="stylesheet" href="css/responsive.css">
       <!-- fevicon -->
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- font css -->
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
       <!-- Scrollbar Custom CSS -->
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
@@ -39,10 +38,10 @@
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Beranda</a>
+                        <a class="nav-link" href="index">Beranda</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.html">Tentang</a>
+                        <a class="nav-link" href="about">Tentang</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="icecream.html">Prodi</a>
@@ -72,11 +71,11 @@
                </div>
             </nav>
          </div>
-         <!-- banner section start --> 
+         <!-- banner section start -->
          <div class="banner_section layout_padding">
             <div class="container">
                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  
+
                   <div class="carousel-inner">
                      <div class="carousel-item active">
                         <div class="row">
@@ -123,9 +122,9 @@
                   <h1 class="about_taital">Sambutan Direktur Politeknik Siber dan Sandi Negara</h1>
                   <p class="about_text">Laksamana Pertama TNI Ir. Arnoldus Triono, M.M., M.Tr. Opsla., CIQNR.
                      Selamat Datang di Politeknik Siber dan Sandi Negara (Poltek SSN) !
-                     
+
                      Kami dengan penuh kebanggaan menyambut Anda di Politeknik Siber dan Sandi Negara (Poltek SSN), institusi pendidikan tinggi yang berkomitmen untuk mencetak generasi unggul di bidang keamanan siber dan sandi. Poltek SSN berkomitmen untuk memberikan Pendidikan berkualitas tinggi yang menggabungkan teori dan praktik, sehingga lulusan kami siap menghadapi tantangan di dunia kerja yang semakin kompleks dan dinamis.
-                     
+
                      Poltek SSN merupakan perguruan tinggi kedinasan yang diselanggarakan oleh Badan Siber dan Sandi Negara (BSSN). Terbentuknya Poltek SSN berawal dari pendidikan sandi pada tahun 1946. Pada tahun 1973, secara de facto berubah menjadi Akademi Sandi Negara (AKSARA) dan pada tahun 2003 ditingkatkan statusnya menjadi Sekolah Tinggi Sandi Negara (STSN). Pada tahun 2019, melalui Peraturan Badan Siber dan Sandi Negara (BSSN), STSN resmi berubah menjadi Politeknik Siber dan Sandi Negara (Poltek SSN) untuk meningkatkan kualitas dan kompetensi sumber daya manusia di bidang siber dan sandi.</p>
                   <div class="read_bt_1"><a href="#">Selengkapnya</a></div>
                </div>
@@ -152,13 +151,13 @@
                   <div class="col-md-4">
                      <div class="cream_box">
                         <div class="cream_img"><img src="images/upacara2.jpg"></div>
-                       
+
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="cream_box">
                         <div class="cream_img"><img src="images/hormat.jpg"></div>
-                       
+
                      </div>
                   </div>
                </div>
@@ -168,19 +167,19 @@
                   <div class="col-md-4">
                      <div class="cream_box">
                         <div class="cream_img"><img src="images/hormat.jpg"></div>
-                   
+
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="cream_box">
                         <div class="cream_img"><img src="images/upacara.jpg"></div>
-                      
+
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="cream_box">
                         <div class="cream_img"><img src="images/upacara2.jpg"></div>
-                       
+
                      </div>
                   </div>
                </div>
@@ -270,6 +269,6 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <!-- javascript --> 
+      <!-- javascript -->
    </body>
 </html>
