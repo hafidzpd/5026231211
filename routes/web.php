@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\KursiController;
+use App\Http\Controllers\KaryawanController;
 //import java.io ;
 
 //system.out.println("Hello World");
@@ -83,3 +84,8 @@ Route::post('/kursi/update', [KursiController::class, 'update']);
 Route::get('/kursi/hapus/{id}', [KursiController::class, 'hapus']);
 Route::get('/kursi/cari', [KursiController::class, 'cari']);
 
+//route karyawan
+Route::get('/karyawan', [KaryawanController::class, 'index']);
+Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
+Route::post('/karyawan/store', [KaryawanController::class, 'store']);
+Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus']);
