@@ -7,6 +7,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\KursiController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\CounterController;
 //import java.io ;
 
 //system.out.println("Hello World");
@@ -89,3 +90,6 @@ Route::get('/karyawan', [KaryawanController::class, 'index']);
 Route::get('/karyawan/tambah', [KaryawanController::class, 'tambah']);
 Route::post('/karyawan/store', [KaryawanController::class, 'store']);
 Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus']);
+
+
+Route::get('/counter', [CounterController::class, 'index']);
