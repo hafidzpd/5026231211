@@ -8,6 +8,7 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\KursiController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\CounterController;
+use App\Http\Controllers\NilaiController;
 //import java.io ;
 
 //system.out.println("Hello World");
@@ -93,3 +94,8 @@ Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus']
 
 
 Route::get('/counter', [CounterController::class, 'index']);
+
+//route nilai
+Route::get('/eas', [NilaiController::class, 'index']);
+Route::get('/eas/tambah', [NilaiController::class, 'tambah']);
+Route::post('/eas/store', [NilaiController::class, 'store']);

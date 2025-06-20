@@ -92,7 +92,7 @@
                 <a class="nav-link" href="/kursi"><i class="fas fa-chair"></i> Tugas CRUD</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-pen"></i> EAS</a>
+                <a class="nav-link" href="/eas"><i class="fas fa-pen"></i> EAS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/karyawan"><i class="fas fa-users"></i> Latihan 1</a>
